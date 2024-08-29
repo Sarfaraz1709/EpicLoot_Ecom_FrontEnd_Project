@@ -1,0 +1,268 @@
+{
+  "logininfo": [
+    {
+      "id": "a63e",
+      "username": "Sarfaraz",
+      "usermobile": "9284797546",
+      "usercity": "Nagpur",
+      "usergender": "male",
+      "password": "1234",
+      "status": "user"
+    },
+    {
+      "id": "6697",
+      "username": "SK",
+      "usermobile": "1234567890",
+      "usercity": "Mumbai",
+      "usergender": "male",
+      "password": "1234",
+      "status": "admin"
+    },
+    {
+      "username": "rushikesh",
+      "usermobile": "63823042",
+      "usercity": "Nag",
+      "usergender": "other",
+      "password": "1234",
+      "status": "admin",
+      "id": "4f88"
+    },
+    {
+      "id": "b27a",
+      "username": "kajal",
+      "usermobile": "1234556",
+      "usercity": "Nagpur",
+      "usergender": "female",
+      "password": "1234",
+      "status": "user"
+    }
+  ],
+  "Products": [
+    {
+      "productname": "God Of War Ragnarok",
+      "productimg": "https://shopatsc.com/cdn/shop/products/GOWR_PACKSHOT_PS5_LT_UK_RGB_20210907.jpg?v=1704374857",
+      "discription": "Sony God Of War Ragnarok | Standard Edition | PS5 Game (PlayStation 5)",
+      "price": "5000",
+      "Category": "games",
+      "display": true,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "productname": "Headphones",
+      "productimg": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/campaign/alienware/gaming/prod-449652-accessories-headphone-alienware-aw720h-1440x1440.png?fmt=png-alpha&wid=1440&hei=1440",
+      "discription": "Alienware Gaming | Dell USA",
+      "price": "5000",
+      "Category": "gadgets",
+      "display": true
+    },
+    {
+      "id": "4",
+      "productname": "DualSense™ PS5",
+      "productimg": "https://shopatsc.com/cdn/shop/products/2_fb3c4967-0b78-409d-825f-dc720f15aaee_2048x.jpg?v=1678086506",
+      "discription": "DualSense™ wireless controller White",
+      "price": "6750",
+      "display": true,
+      "Category": "remote"
+    },
+    {
+      "id": "5",
+      "productname": "Portal Remote Player",
+      "productimg": "https://s3.us-east-1.amazonaws.com/product-image-bucket-prod-us/670020-Product-0-I-638350035006951201.jpg",
+      "discription": "PS5 PlayStation Portal Remote Player - JB Hi-Fi",
+      "price": "55000",
+      "display": true,
+      "Category": "gadgets"
+    },
+    {
+      "id": "6",
+      "productname": "PS5",
+      "productimg": "https://whatnot.in/wp-content/uploads/2023/08/playstation-5-horizontal-product-shot-01-ps5-en-23nov20-scaled-1-1024x1024.webp",
+      "discription": "Buy Sony Playstation 5 (PS5)",
+      "price": "65000",
+      "display": true,
+      "Category": "ps"
+    },
+    {
+      "id": "7",
+      "productname": "Playstation Alarm Clock PS5",
+      "productimg": "https://www.sportsdirect.com/images/imgzoom/40/40826890_xxl_a3.jpg",
+      "discription": "Paladone | Playstation Alarm Clock PS5 | Merchandise ",
+      "price": "750",
+      "display": true,
+      "Category": "murchendices"
+    },
+    {
+      "id": "8",
+      "productname": "F1 2024",
+      "productimg": "https://www.studio.co.uk/images/products/92670382_h.jpg",
+      "discription": "Electricals Gaming Playstation PS5 Games",
+      "price": "4000",
+      "display": true,
+      "Category": "games"
+    },
+    {
+      "id": "9",
+      "productname": "Black Myth Wukong",
+      "productimg": "https://gamebreakermalta.com/wp-content/uploads/2024/06/black-myth-wukong-ps5-prevendita-versione-eu-multilingue-summer-game-fest-2024.jpg",
+      "discription": "Black Myth Wukong – Gamebreaker",
+      "price": "5000",
+      "display": true,
+      "Category": "games"
+    },
+    {
+      "id": "1",
+      "productname": "PS4 Controller",
+      "productimg": "https://gmedia.playstation.com/is/image/SIEPDC/dualshock-controller-product-thumbnail-01-en-14sep21?$facebook$",
+      "discription": "DUALSHOCK 4 wireless controller - PS4 Controller",
+      "price": "3200",
+      "display": true,
+      "Category": "remote"
+    },
+    {
+      "id": "10",
+      "productname": "PS4 - AimControllers",
+      "productimg": "https://eu.aimcontrollers.com/wp-content/uploads/2020/05/Aim_Purple_Matt.png",
+      "discription": "Aim Purple Matt PS4 - AimControllers",
+      "price": "4120",
+      "display": true,
+      "Category": "remote"
+    },
+    {
+      "id": "11",
+      "productname": "PS5 DualSense",
+      "productimg": "https://s.isanook.com/ga/0/ud/231/1157769/ps5_dualsense_edge_cover.jpg?ip/crop/w670h402/q80/jpg",
+      "discription": "PS5 DualSense Edge",
+      "price": "6500",
+      "display": true,
+      "Category": "remote"
+    },
+    {
+      "id": "12",
+      "productname": "Tshirt",
+      "productimg": "https://m.media-amazon.com/images/I/81aI3NwP81L.jpg",
+      "discription": "Gaming Tshirt  for Men",
+      "price": "500",
+      "display": true,
+      "Category": "murchendices"
+    },
+    {
+      "id": "13",
+      "productname": "Gaming Tshirt",
+      "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgeTe-KaTM0joysgnAM2DPj0oDM7mWF3o2A&s",
+      "discription": "Gaming Yellow Tshirt UniSex",
+      "price": "200",
+      "display": true,
+      "Category": "murchendices"
+    },
+    {
+      "id": "13",
+      "productname": "2K23 GAME ",
+      "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYJRttS4sm2fCb1RZQnj_1ZjJKxbYS-tgXTw&s",
+      "discription": "2K'23 PS5 Game",
+      "price": "4600",
+      "display": true,
+      "Category": "games"
+    },
+    {
+      "id": "14",
+      "productname": "Gaming Keyboard",
+      "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNXk_JDCB-aek8EEJR1c7C0t-kdoL8mbTPQg&s",
+      "discription": "RGB Keyboard PC",
+      "price": "1500",
+      "display": true,
+      "Category": "gadgets"
+    },
+    {
+      "id": "15",
+      "productname": "Gaming Mouse",
+      "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOYSTJWsw191Y-y4yybeAtonukODlBJ8scg&s",
+      "discription": "Gaming Mouse With 6buttons ",
+      "price": "3000",
+      "display": true,
+      "Category": "gadgets"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "bed5",
+      "userid": "b27a",
+      "username": "kajal",
+      "prodid": "2",
+      "prodname": "God Of War Ragnarok",
+      "prodprice": "5000",
+      "prodimg": "https://shopatsc.com/cdn/shop/products/GOWR_PACKSHOT_PS5_LT_UK_RGB_20210907.jpg?v=1704374857",
+      "quantity": 1
+    },
+    {
+      "id": "09c9",
+      "userid": "b27a",
+      "username": "kajal",
+      "prodid": "1",
+      "prodname": "PS4 Controller",
+      "prodprice": "4500",
+      "prodimg": "https://www.digitaltrends.com/wp-content/uploads/2021/04/sony-ps4-controller.jpg?resize=1200%2C630&p=1",
+      "quantity": 1
+    },
+    {
+      "id": "c0fe",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "3",
+      "prodname": "Headphones",
+      "prodprice": "5000",
+      "prodimg": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/campaign/alienware/gaming/prod-449652-accessories-headphone-alienware-aw720h-1440x1440.png?fmt=png-alpha&wid=1440&hei=1440",
+      "quantity": 1
+    },
+    {
+      "id": "12f9",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "2",
+      "prodname": "God Of War Ragnarok",
+      "prodprice": "5000",
+      "prodimg": "https://shopatsc.com/cdn/shop/products/GOWR_PACKSHOT_PS5_LT_UK_RGB_20210907.jpg?v=1704374857",
+      "quantity": 1
+    },
+    {
+      "id": "6336",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "6",
+      "prodname": "PS5",
+      "prodprice": "65000",
+      "prodimg": "https://whatnot.in/wp-content/uploads/2023/08/playstation-5-horizontal-product-shot-01-ps5-en-23nov20-scaled-1-1024x1024.webp",
+      "quantity": 1
+    },
+    {
+      "id": "3291",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "1",
+      "prodname": "PS4 Controller",
+      "prodprice": "4500",
+      "prodimg": "https://www.digitaltrends.com/wp-content/uploads/2021/04/sony-ps4-controller.jpg?resize=1200%2C630&p=1",
+      "quantity": 1
+    },
+    {
+      "id": "c4d4",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "8",
+      "prodname": "F1 2024",
+      "prodprice": "4000",
+      "prodimg": "https://www.studio.co.uk/images/products/92670382_h.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "6876",
+      "userid": "a63e",
+      "username": "Sarfaraz",
+      "prodid": "7",
+      "prodname": "Playstation Alarm Clock PS5",
+      "prodprice": "750",
+      "prodimg": "https://www.sportsdirect.com/images/imgzoom/40/40826890_xxl_a3.jpg",
+      "quantity": 1
+    }
+  ]
+}

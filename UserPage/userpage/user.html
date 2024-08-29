@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic User</title>
+    <link rel="stylesheet" href="/UserPage/userpage/user.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+    <!-- NAVBAR STARTS -->
+    <nav class="navbar">
+        <div id="nav1">
+            <a href="/UserPage/userpage/user.html" style="color: red;font-weight: bold;"> EPICLOOT </a>
+        </div>
+
+        <div id="input-group">
+            <input type="text" placeholder="Search Products " id="usernm" required>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <select id="Category">
+            <option value="">Select Category</option>
+            <option value="remote">Remote</option>
+            <option value="games">Games</option>
+            <option value="gadgets">Gadgets</option>
+            <option value="merchandise">Merchandise</option>
+            <option value="ps">Ps</option>
+        </select>
+        
+        <div class="dropdown">
+            <button id="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="../editprofile/edit.html">Profile</a>
+                <a href="/CART/cart.html">Orders</a>
+                <a onclick="Logout()">Logout|<i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR ENDS -->
+
+    <!-- For Products -->
+    <div id="container">
+        
+    </div>
+    <!-- For Pages  -->
+    <div id="pages">
+
+    </div>
+
+    <video id="video" src="/Projimages/Video03.mp4" autoplay loop muted></video>
+</body>
+<script src="/UserPage/userpage/user.js"></script>
+</html>

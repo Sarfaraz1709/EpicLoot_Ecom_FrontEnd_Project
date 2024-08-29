@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Products</title>
+    <link rel="stylesheet" href="/AdminPage/Deleteproducts/delete.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div id="nav1">
+            <a href="/AdminPage/admin.html"> Admin </a>
+            <a href="/AdminPage/Addproducts/add.html"> Add.Product </a>
+            <a href="/AdminPage/Updateproducts/update.html"> Update.Product </a>
+            <a href="/AdminPage/Deleteproducts/delete.html"> Delete.Product </a>
+        </div>
+
+        <div class="dropdown">
+            <button id="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="/UserPage/editprofile/edit.html">Profile</a>
+                <a onclick="Logout()">Logout|<i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <h1 style="text-align: center;color: red;">DELETE PRODUCTS</h1>
+
+    <div id="deleteproduct">
+        <input type="text" name="delid" id="deleteid" placeholder="Enter Product-ID" required>
+        <button id="deletebtn"> Delete Product </button>
+    </div>
+
+    
+</body>
+<script src="/AdminPage/Deleteproducts/delete.js"></script>
+</html>

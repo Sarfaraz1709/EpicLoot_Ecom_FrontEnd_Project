@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="/UserPage/editprofile/edit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div id="nav1">
+            <a href="/UserPage/userpage/user.html" style="color: red;font-weight: bold;"> EPICLOOT </a>
+        </div>
+
+        <div class="dropdown">
+            <button id="dropbtn"></button>
+            <div class="dropdown-content">
+                <a onclick="Logout()">Logout|<i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <div id="Edit">
+
+        <div id="Editpage">
+        <!-- Take form as Id for selector-->
+            <form id="edit-form"> 
+                
+                <h2>Edit Your Profile</h2>
+
+                <div class="input-group">
+                    <input type="text" id="uname" placeholder="Username" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="number" id="umobile" placeholder="Mobile Number" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="ucity" placeholder="City" required>
+                </div>
+            
+                <Select id="ugender" required>
+                    <option>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </Select>
+                <br>
+                <button id="updtbtn">Update</button>
+           </form>
+ 
+        </div>
+    </div>
+
+</body>
+<script src="/UserPage/editprofile/edit.js"></script>
+</html>

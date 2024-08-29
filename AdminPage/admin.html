@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="/AdminPage/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div id="nav1">
+            <a href="/AdminPage/admin.html"> Admin </a>
+            <a href="/AdminPage/Addproducts/add.html"> Add.Product </a>
+            <a href="/AdminPage/Updateproducts/update.html"> Update.Product </a>
+            <a href="/AdminPage/Deleteproducts/delete.html"> Delete.Product </a>
+        </div>
+
+        <div class="dropdown">
+            <button id="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="/UserPage/editprofile/edit.html">Profile</a>
+                <a onclick="Logout()">Logout|<i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="table">
+        <table id = "showtable">
+            <tr id="heading">
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Product Discription</th>
+                <th>Product Price</th>
+                <th>Product Category</th>
+                <th>Delete</th>
+                <th>Status</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script src="/AdminPage/admin.js"></script>
+</html>

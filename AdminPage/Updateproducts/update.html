@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Products</title>
+    <link rel="stylesheet" href="/AdminPage/Updateproducts/update.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div id="nav1">
+            <a href="/AdminPage/admin.html"> Admin </a>
+            <a href="/AdminPage/Addproducts/add.html"> Add.Product </a>
+            <a href="/AdminPage/Updateproducts/update.html"> Update.Product </a>
+            <a href="/AdminPage/Deleteproducts/delete.html"> Delete.Product </a>
+        </div>
+
+        <div class="dropdown">
+            <button id="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="/UserPage/editprofile/edit.html">Profile</a>
+                <a onclick="Logout()">Logout|<i class="fa-solid fa-right-from-bracket"></i></a>
+            </div>
+        </div>
+    </nav>
+
+<!-- Update Form -->
+    <h1 style="text-align: center; color: rgba(255, 0, 0, 0.982);">UPDATE PRODUCTS</h1>
+
+    <div id="updateproduct">
+        <input type="text" id="updateid" placeholder="Enter Product-ID " required>
+        <button id="udateidbtn"> Update Product </button>
+    </div>
+
+    <form action="" id ="updateform">
+
+        <input type="text"  name="fname" placesholder="Enter Product Name" required>
+        <input type="text"  name="fimage" placeholder="Enter Product image url" required>
+        <input type="text"  name="fdiscription" placeholder="Enter Product Discription" required>
+        <input type="number" name="fprice" placeholder="Enter Product Price" required>
+        <select name="fCategory" required> 
+            <option>Select Category</option>
+            <option value="remote">Remote</option>
+            <option value="games">Games</option>
+            <option value="gadgets">Gadgets</option>
+            <option value="murchendices">Murchendice</option>
+            <option value="ps">Ps</option>
+        </select>
+    
+        <input type="submit" id="submitbtn">
+
+    </form>
+
+
+
+</body>
+<script src="/AdminPage/Updateproducts/update.js"></script>
+</html>

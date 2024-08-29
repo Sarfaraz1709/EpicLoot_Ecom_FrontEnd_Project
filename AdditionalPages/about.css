@@ -1,0 +1,94 @@
+.videotag2
+{
+    width: 100%;
+    box-shadow:0 8px 16px rgba(255, 255, 255, 0.230);
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+body
+{
+    background-color: black;
+}
+.navbr
+{
+    background-color:rgba(93, 93, 93, 0.37);
+    color:white;
+    display: flex; 
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Ensures #nav1 is on the left and #nav2 on the right */
+    height: 40px;
+    padding: 10px;  
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:5px ;
+    margin-bottom:10px;
+}
+.navbr div a
+{
+   text-decoration: none;
+   color: white; 
+   padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #b9b6b6;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    bottom: 0;
+    width: 100%;
+}
+.about-section p
+{
+    color:#b9b6b6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  
+}

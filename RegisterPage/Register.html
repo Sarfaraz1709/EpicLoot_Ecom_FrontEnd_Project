@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Rigister.css">
+</head>
+<body>
+    <div id="Register">
+
+        <div id="RegisterPage">
+        <!-- Take form as Id for selector-->
+            <form id="register-form"> 
+                
+                <h2>Register</h2>
+
+                <div class="input-group">
+                    <input type="text" id="uname" placeholder="Username" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="number" id="umobile" placeholder="Mobile Number" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="ucity" placeholder="City" required>
+                </div>
+            
+                <Select id="ugender" required>
+                    <option>Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </Select>
+                
+                <Select id="ustatus" required>
+                    <option>User/Admin</option>
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                </Select>
+            
+                <div class="input-group">
+                    <input type="password" id="upass" placeholder="Password" required>
+                </div>
+
+                <button type="submit" id="regbtn">Register</button>
+           </form>
+ 
+        </div>
+    </div>
+</body>
+<script src="./Register.js"></script>
+</html>

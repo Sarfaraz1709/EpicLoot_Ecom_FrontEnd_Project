@@ -1,0 +1,135 @@
+body
+{
+   background-image:url(/Projimages/AdminBG.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.navbar
+{
+    background-color:darkslategray;
+    color:white;
+
+    display: flex; 
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Ensures #nav1 is on the left and #nav2 on the right */
+    height: 40px;
+
+    padding: 10px;  
+    border-radius: 5px;
+    margin-top:5px ;
+    margin-bottom:10px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+#updateproduct
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#updateform
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.242);
+}
+input
+{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#submitbtn
+{
+    background-color: rgba(0, 0, 255, 0.422);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+#submitbtn:hover
+{
+    background: rgba(97, 173, 221, 0.873);
+}
+select
+{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#udateidbtn
+{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(162, 255, 0, 0.711);
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* //---------------- */
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/* Dropdown button */
+#dropbtn {
+    background-color:rgba(244, 244, 244, 0.107); /* Change to your preferred color */
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.656);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(26, 26, 26, 0.533);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color:rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color:rgba(0, 81, 255, 0.455);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover #dropbtn {
+    background-color: #020202;
+}

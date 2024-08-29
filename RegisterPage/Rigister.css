@@ -1,0 +1,81 @@
+body
+{
+background-image: url(/Projimages/RegisterBG.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#Register
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Make Register div full height of the viewport */
+}
+
+#RegisterPage{
+    
+    background: rgba(65, 69, 67, 0.575);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.242);
+    text-align:center;
+    width:40%;
+}
+#register-form h2 {
+   
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.input-group input 
+{
+    width:400px;
+    padding: 10px 40px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.799);
+    color: darkslategrey;
+    font-size: 16px;
+}
+.options 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#register-form button {
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+#regbtn:hover {
+    background: rgba(118, 152, 255, 0.899);
+    color:white;
+}
+
+#register-form select
+{
+   font-size: 16px;
+   padding: 10px 40px 10px 20px;
+   width:460px;
+   background: grey;
+   color: white;  
+   margin-bottom:15px;
+   border-radius: 5px;
+}
